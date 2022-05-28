@@ -1,0 +1,726 @@
+
+@font-face {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 300;
+    src: 
+    url('../fonts/mulish-v11-latin_cyrillic-300.woff2') format('woff2'),
+    url('../fonts/mulish-v11-latin_cyrillic-300.woff') format('woff'); 
+}
+
+@font-face {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    src: 
+    url('../fonts/mulish-v11-latin_cyrillic-regular.woff2') format('woff2'),
+    url('../fonts/mulish-v11-latin_cyrillic-regular.woff') format('woff'); 
+}
+
+@font-face {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 600;
+    src: 
+    url('../fonts/mulish-v11-latin_cyrillic-600.woff2') format('woff2'),
+    url('../fonts/mulish-v11-latin_cyrillic-600.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    src: 
+    url('../fonts/mulish-v11-latin_cyrillic-700.woff2') format('woff2'),
+    url('../fonts/mulish-v11-latin_cyrillic-700.woff') format('woff'); 
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.visuallu-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1;
+    padding: 0;
+    overflow: hidden;
+    border: 0;
+    clip: rect(0 0 0 0 );
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Mulish',sans-serif,monospace;
+    font-style: 16px;
+    
+}
+
+img {
+    vertical-align: middle;
+}
+
+.container{
+    max-width: 1160px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.header {
+    margin-top: 50px;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    
+}
+
+.header-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.header-item{
+    margin-left: 40px;
+}
+
+.headir-link {
+    text-decoration: none;
+    color:#8e81af; 
+    
+}
+
+.bold {
+    font-weight: 700;
+    color: #130f1d;
+    
+}
+
+.main{
+    background-image: url("../imgs/nuqtachala.png"),url("../imgs/nuqtachala.png") ;
+    background-repeat: no-repeat;
+    background-position: calc(50% + 719px)  calc(100% + 45px), calc(50% - 688px) calc(50% - 2492px);
+    padding-bottom: 200px;
+}
+
+
+
+/* HERO */
+
+.hero {
+    
+    display: flex;
+    align-items: center;
+}
+
+.left-hero {
+    width: 445px;
+}
+
+.hero-sarlavha {
+    margin: 0;
+    margin-bottom: 25px;
+    line-height: 56px;
+    font-size: 48px;
+}
+
+.hero-paragrif {
+    margin: 0;
+    margin-bottom: 47px;
+    font-size: 21px;
+    line-height: 32px;
+    color: #7D7987;
+}
+
+.hero-link {
+    display: inline-block;
+    text-decoration: none;  
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+    border-radius: 55px;
+    background: #458FF6;
+    padding: 14px 36px;
+}
+
+
+/* SERVICES */
+
+.services{
+    background-image: url("../imgs/fon2.svg"), url("../imgs/nuqtachala.png");
+    background-repeat: no-repeat;
+    background-position: calc(50% + -427px) calc(50% + 25px), calc(50% + 551px) calc(50% + 96px);
+}
+
+.container-services {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 224px;
+}
+
+.services-nomi {
+    margin: 0;
+    padding: 0;
+    margin-top: 113px;
+    margin-bottom: 26px;
+    font-size: 36px;
+    line-height: 56px;
+    color: #000000;
+}
+
+.services-jizigi {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 33px;
+    display: inline-block;
+    width: 56px;
+    height: 2px;
+    border-radius: 5px;
+    background-color: black
+}
+
+.services-paragrifi {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: 18px;
+    line-height: 30px;
+    color: #7D7987;
+    margin-bottom: 67px;
+}
+
+.services-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    margin-bottom: 37px;
+}
+
+.services-item {
+    background: #FFFFFF;
+    box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+    width: 350px;
+    border-radius: 20px;
+    padding-left: 38px;
+    padding-right: 45px;
+    padding-top: 47px;
+    margin-bottom: 37px;
+}
+
+.services-item-img {
+    margin-bottom: 22px;
+}
+
+.services-item-nomi {
+    margin: 0;
+    margin-bottom: 1px;
+    font-size: 24px;
+    line-height: 56px;
+    color: #000000;
+}
+
+.services-item-paragrifi {
+    margin: 0;
+    font-size: 16px;
+    width: 266px;
+    line-height: 28px;
+    font-weight: 300;
+    color: #7D7987;
+    margin-bottom: 47px;
+}
+
+.services-link {
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 23px;
+    color: #458FF6;
+    border: 1.4px solid #458FF6;
+    border-radius: 55px;
+    padding: 16px 51px;
+    
+}
+
+/* leading */
+
+.leading{
+   
+    background-image:url("../imgs/nuqtachala.png");
+    background-repeat: no-repeat;
+    background-position:calc(50% + 994px) calc(50% + 220px);
+}
+
+.container-leading{
+    display: flex;
+    align-items: center;
+    padding-bottom: 229px;
+}
+
+.leading-left {
+    margin-right: 137px;
+}
+    
+.leading-sarlavha {
+    margin: 0;
+    padding: 0;
+    width: 481px;
+    font-size: 36px;
+    line-height: 56px;
+    color: #000000;
+    margin-bottom: 26px;
+}
+
+.leading-hr {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 31px;
+    display: inline-block;
+    width: 56px;
+    height: 2px;
+    border-radius: 5px;
+    background-color: black 
+}
+
+.leading-paragrif{
+    margin: 0;
+    padding: 0;
+    width: 450px;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    color: #7D7987;
+    margin-bottom: 40px;
+}
+
+.leading-link {
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 23px;
+    color: #458FF6;
+    border: 1.4px solid #458FF6;
+    border-radius: 55px;
+    padding: 16px 51px;    
+}
+
+
+
+/* download */
+
+.container-download{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 262px;
+}
+
+.download-left{
+    margin-right: 71px;
+}
+
+.downloand-sarlavha{
+    margin: 0;
+    padding: 0;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    color: #000000;
+    margin-bottom: 30px;
+}
+    
+.download-hr{
+    margin: 0;
+    padding: 0;
+    width: 56px;
+    height: 2px;
+    background: #000000;
+    border-radius: 6px;
+    margin-bottom: 31px;
+}
+
+.download-paragrif{
+    margin: 0;
+    padding: 0;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    color: #7D7987;
+    margin-bottom: 40px;
+}
+   
+    
+.download-link{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #458FF6;
+    width: 200px;
+    padding: 22px 44px;
+    border: 1.4px solid #458FF6;
+    border-radius: 55px;
+}
+
+.download-link-img{
+    color: #458FF6;
+    margin-left: 14px;
+}
+
+
+/* bratan */
+
+
+.brat-container{
+    background: linear-gradient(400deg, #67C3F3 9.05%, #5A98F2 76.74%);
+    border-radius: 24px;
+    
+}
+
+.brat-container-top{
+    background-image: url("../imgs/nuqtachala.png");
+    background-repeat: no-repeat;
+    background-position:calc(105%) calc(-4%);
+    padding-bottom: 75px;
+    margin-bottom: 51px;
+}
+
+.brat-container-sarlavha{
+    margin: 0;
+    padding: 0;
+    padding-top: 68px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    color: #FFFFFF;
+    margin-bottom: 25px;
+}
+
+.brat-container-hr{
+    margin: 0;
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 56px;
+    height: 2px;
+    background: #FFFFFF;
+    border-radius: 6px;
+    margin-bottom: 66px;
+}
+
+.brat-container-wrapper{
+    display: flex;
+    align-items: center;
+}
+
+.brat-container-left{
+    display: flex;
+    align-items: center;
+    margin-right: 110px;
+    margin-left: 116px;
+}
+
+.brat-container-left-img{
+    border-radius: 50%;
+    border: 3px solid white;
+    margin-right: 18px;
+}
+
+.brat-ismi{
+    margin: 0;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 28px;
+    color: #FFFFFF;
+    margin-bottom: 8px;
+}
+
+.brat-paragrif{
+    margin: 0;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    color: rgba(255, 255, 255, 0.85);
+}
+
+.brat-container-right-paragrif{
+    margin: 0;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 30px;
+    color: rgba(255, 255, 255, 0.9);
+    width: 420px;
+}
+
+.brat-container-bottom{
+    display: flex;
+    align-items: center;
+    margin-left: 390px;
+    margin-bottom: 225px;
+}
+
+.brat-container-bottom-sterelka-left{
+  opacity: 0.4;
+  margin-right: 10px;
+}
+
+.carusel-list{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    margin-left: 90px;
+    margin-right: 90px;
+}
+
+.carusel-list-item-active{
+    opacity: 1;
+    background: #2a5ea7;
+}
+
+.carusel-list-item{
+    margin: 0;
+    padding: 0;
+    width: 15px;
+    height: 15px;
+    margin-right: 10px;
+    background: #5B9BF3;
+    opacity: 0.3;
+    border-radius: 50%;
+}
+
+
+/* article */
+
+.article{
+    background-image:url("../imgs/fon.svg"), url("../imgs/nuqtachala.png");
+    background-repeat: no-repeat;
+    background-position: calc(50% + 563px) calc(100% + -199px) , calc(50% + -541px) calc(50% + -225px);
+}
+
+.article-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.article-heading{
+    font-size: 36px;
+    line-height: 56px;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 26px;
+}
+
+.article-line{
+    width: 56px;
+    height: 2px;
+    background: #000000;
+    border-radius: 5px;
+    margin: 0;
+    margin-bottom: 72px;
+}
+
+.article-list{
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    margin-right: -17px;
+    margin-left: -17px;
+    margin-bottom: 72px;
+}
+  
+    
+
+.article-list-item{
+    width: 350px;
+    background: white;
+    box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+    border-radius: 20px;
+    overflow: hidden;
+    margin-right: 17px;
+    margin-left: 17px;
+}
+
+
+
+
+.article-wrapper{
+    
+    padding: 21px 51px 35px 33px;
+}
+
+
+
+.article-item-heading{
+    margin: 0;
+    font-size: 21px;
+    line-height: 32px;
+    margin-bottom: 12px;
+}
+
+.article-item-text{
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 28px;
+    color: #7D7987;
+    margin: 0;
+    margin-bottom: 25px;
+}
+
+.article-item-link{
+    display: flex;
+    align-items: center;
+    margin: 0;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 28px;
+    color: #4089ED;
+    text-decoration: none;
+}
+
+.article-item-link-img{
+    margin-left: 15px;
+}
+
+.article-container-link{
+    text-decoration: none;
+    color: #5B9BF3;
+    border: 1.4px solid #458FF6;
+    border-radius: 55px;
+    padding: 13px 63px;
+}
+
+
+/* footer */
+
+.footer{
+    margin-bottom: 85px;
+    background-image: url("./../imgs/nuqtachala.png"),
+    linear-gradient(183.41deg, #67C3F3 -8.57%, #5A98F2 82.96%);
+    background-repeat: no-repeat;
+   background-position:calc(50% - 750px) calc(100% + 20px),top left 
+    
+}  
+
+.footer-container{
+    display: flex;
+    padding-top:116px;
+    padding-bottom: 109px;
+}
+
+.footer-left{
+    margin-right: 145px;
+}
+
+.footer-right-list{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 660px;
+
+}
+
+.footer-logo-link{
+    margin: 0;
+    text-decoration: none;
+}
+
+.footer-logo-imj{
+    margin-bottom: 17px;
+}
+
+
+.footer-text{
+    margin: 0;
+    font-size: 18px;
+    line-height: 28px;
+    width: 391px;
+    color: #FFFFFF;
+    margin-bottom: 31px;
+}
+
+.footer-bootom-text{
+    font-size: 16px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+
+.footer-right-list{
+    margin: 0;
+    list-style-type: none;
+}
+
+
+
+.footer-item-heading{
+    margin: 0;
+    font-size: 20px;
+    line-height: 60px;
+    color: #FFFFFF;
+    margin-bottom: 5px;
+}
+
+.footer-inner-list{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+.footer-inner-item{
+    margin: 0;
+    margin-bottom: 3px;
+    font-size: 18px;
+    line-height: 38px;
+}
+
+
+
+
+.footer-inner-item-link{
+    display: inline-block;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+ 
+    
+    
+    
+    
+
+
+
+
+    
+    
+    
+    
+    
